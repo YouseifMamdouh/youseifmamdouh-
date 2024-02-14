@@ -1,0 +1,368 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(171,17,17);
+    background: linear-gradient(0deg, rgba(171,17,17,1) 0%, rgba(51,9,9,1) 42%, rgba(0,0,0,1) 100%);
+    height: 1000px;
+}
+
+.container{
+    /* background: yellow; */
+    width: 1000px;
+    margin: auto;
+    margin-top: -60px;
+}
+
+.se-1{
+    position: fixed;
+    background:#000000;
+    width: 100%;
+    height: 90px;
+    margin-top: -194px;
+}
+
+.img-1{
+    margin-right: 153px;
+    padding-top: 12px;
+}
+
+.img-1 img{
+    max-width: 190px;
+}
+
+.nav{
+    margin-right: 80px;
+    margin-top: -50px;
+    text-align: center;
+}
+
+.nav ul{
+    list-style: none;
+}
+
+.nav ul li{
+    display: inline-block;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 20px;
+}
+
+.nav ul li a:hover{
+    color: red;
+}
+
+.lin{
+    margin-right: 633px;
+    margin-top: -20px;
+}
+
+.lin a{
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 22px;
+    padding: 2px 4px;
+    border-radius: 6px;
+    transition: all 1s ease;
+}
+
+
+.lin .w{
+    border: 1px solid red;
+    padding: 5px 8px;
+    color:red;
+    border-radius: 6px;
+    transition: all 1s ease;
+}
+
+.lin a:hover{
+    background: #eee;
+    color: #000000;
+}
+
+.lin .w:hover{
+    background: tomato;
+    color: #eee;
+    transform: translate(1.9);
+}
+
+.img-header{
+    margin-right: 592px;
+    margin-top: -222px;
+}
+
+.img-header img{
+    max-width: 420px;
+}
+
+.text{
+    margin-top: 244px;
+    margin-right: 153px;
+    color: #fff;
+    line-height: 60px;
+}
+
+.text h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.text a{
+    text-decoration: none;
+    background: red;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    border-radius: 6px;
+    transition: all 1s ease;
+}
+
+.text a:hover{
+    background: #eee;
+    color: #000000;
+}
+
+.section-1{
+    background: #fff;
+    margin-top: 93px;
+    width: 1013px;
+    height: 180px;
+    margin-right: 39px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.find-car-form h4{
+    margin-left: 832px;
+    padding-top: 19px;
+    font-size: 25px;
+}
+
+
+.find-car-form .row{
+    margin-top: 5px;
+}
+
+
+.find-car-form .row .select-4{
+    border: 2px solid #aca3a35b;
+    width: 102px;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+.find-car-form .row .col-lg-2{
+    display: inline-block;
+    margin: 20px;
+    background: #fff;
+}
+
+.find-car-form .row .select-years-home{
+    border: 2px solid #aca3a35b;
+    width: 102px;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+.find-car-form .row .form-control{
+    border: 2px solid #aca3a35b;
+    width: 180px;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+
+.find-car-form .row .select-years-home-22{
+    border: 2px solid #aca3a35b;
+    width: 180px;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.find-car-form .row .col-lg-3{
+    display: inline-block;
+    margin: 10px;
+}
+
+.col-lg-2-align-self-end {
+    display: inline-block;
+}
+
+.col-lg-2-align-self-end button{
+    margin-right:820px;
+    padding: 9px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 1s ease;
+}
+
+.col-lg-2-align-self-end button:hover{
+    background: #000000;
+}
+
+.section-2{
+    background: #000000;
+    width: 100%;
+    height: 500px;
+    /* margin-left: 333px; */
+}
+
+.section-2 .img-1 {
+    margin-top: 122px;
+}
+
+.section-2 .img-1 img{
+    max-width: 400px;
+    margin-top: 80px;
+}
+
+.text-section-2{
+    margin-right: 594px;
+    margin-top: -275px;
+    color: #fff;
+    line-height: 22px;
+}
+
+.text-section-2 h4{
+}
+
+.text-section-2 h1{
+    font-size: 25px;
+}
+
+.text-section-2 p{
+    line-height: 38px;
+}
+
+.text-section-2 h4{
+    color: rgb(218, 9, 9);
+}
+
+.text-section-2 input{
+    background-color: rgb(218, 9, 9);
+    color: #fff;
+    padding: 8px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 1s ease;
+}
+
+.text-section-2 input:hover{
+    background: #000000;
+}
+
+
+
+.text-section-4{
+    color: #fff;
+    text-align: center;
+    margin: 20px;
+}
+
+.ho-works__card {
+    margin-top: 44px;
+    display: inline-block;
+    width: calc(19% - 15px); /* تحديد العرض مع هامش بين العناصر */
+    margin-right: 40px; /* هامش يمين العنصر */
+    margin-bottom: 20px; /* هامش أسفل العنصر */
+    vertical-align: top; /* توجيه عمودي للعناصر */
+    background: #fff;
+    border-radius: 10px;
+    width: 200px;
+    margin-left: -9px;
+}
+
+
+.card__img img {
+    max-width:170px; /* تحديد أقصى عرض للصورة داخل البطاقة */
+    height: 130px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+
+
+.card__img img:hover{
+    transform: scale(1.1);
+}
+
+.text-section-4 h4{
+    color: red;
+}
+
+h3 {
+    font-size: 24px; /* حجم العنوان */
+    margin-top: 10px; /* هامش أعلى العنوان */
+    margin-right: 24px;
+    font-weight: 800;
+}
+
+ol {
+    list-style-type: none; /* إزالة نقاط القائمة */
+    padding:3px; /* إزالة التباعد الداخلي للقائمة */
+    margin: 0px;
+}
+
+ol li {
+    margin-bottom: 5px; /* هامش بين عناصر القائمة */
+    margin: 15px;
+    display: inline-block;
+    /* font-weight: 800; */
+}
+
+ol .uu{
+    width: 200px;
+    text-align: center;
+    background: #ef1d26;
+    margin-right: -3px;
+    padding: 5px;
+    color: #eee;
+}
+
+
+
+ol .aa{
+    border: 2px solid red;
+    background: #ef1d26;
+    color:#fff;
+    padding:8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+ol .m{
+    color: rgba(171,17,17,1);
+}
+
+.ss{
+    text-align: center;
+    margin-top: 23px;
+}
+
+.ss button{
+    padding: 12px;
+    border-radius: 10px;
+    background: #ef1d26;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all .90s ease;
+}
+
+.ss button:hover{
+    background: #000000;
+}
